@@ -1,0 +1,166 @@
+.header {
+    background-color: #005185;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 6px 10%;
+}
+
+.header .logo img {
+    height: 75px;
+    width: auto;
+}
+
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+
+.btn {
+    padding: 9px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-image: linear-gradient(to bottom right, orange, rgba(255, 166, 0, 0.979));
+    border-radius: 40px;
+    box-shadow: 0px 4px 0px rgba(255, 172, 17, 0.437);
+    border: 1px solid black;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.contenedor {
+    position: relative;
+    text-align: center;
+    background-image: url("/vallegrande.jpeg");
+    background-size: 100%;
+    background-position: center;
+    height: 500px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.contenedor h1 {
+    padding: 100px;
+    z-index: 1;
+    font-size: 54px;
+}
+
+.content {
+
+    height: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    color: #b45f06;
+    padding-left: 50px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.content p {
+    width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.footer {
+    margin: 56;
+    background-color: cornsilk;
+    text-align: center;
+    background-color: #005185;
+    padding: 20px;
+}
+
+.contacto {
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+}
+
+
+.contacto i {
+    margin-right: 10px;
+}
+
+.contacto a {
+    color: white;
+    text-decoration: none;
+}
+
+.contacto a:hover {
+    text-decoration: underline;
+}
+
+.contact02 p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.contact02 i {
+    margin-right: 10px;
+}
+
+#historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cacaca;
+}
+
+#historia span {
+    display: block;
+    text-align: center;
+}
+
+#historia img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
