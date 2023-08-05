@@ -5,7 +5,7 @@
     align-items: center;
     height: 100px;
     padding: 6px 10%;
-}
+} 
 
 .header .logo img {
     height: 75px;
@@ -51,7 +51,7 @@ body {
 .contenedor {
     position: relative;
     text-align: center;
-    background-image: url("/vallegrande.jpeg");
+    background-image: url("vallegrande.jpeg");
     background-size: 100%;
     background-position: center;
     height: 500px;
@@ -148,6 +148,7 @@ iframe {
 }
 
 #historia {
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,6 +156,7 @@ iframe {
 }
 
 #historia span {
+    margin: 0 100px;
     display: block;
     text-align: center;
 }
